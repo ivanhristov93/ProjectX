@@ -44,6 +44,6 @@ echo "<br >-----------------<br />";
 $_POST = [
     "page" => 1
 ];
-echo 'Has page in $_GET array and its int<br />';
+echo 'Has page in $_POST array and its int<br />';
 echo inputPOST('page', 'int', 0);
 echo "<br >-----------------<br />";
